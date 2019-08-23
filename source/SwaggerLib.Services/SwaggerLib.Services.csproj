@@ -3,9 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageId>SwaggerLib</PackageId>
+    <PackageId>SwaggerLib.MGG</PackageId>
     <Authors>Mateus G. Geracino</Authors>
-    <Company>SwaggerLib</Company>
+    <Company>Swagger</Company>
     <Product>SwaggerLib</Product>
     <PackageLicenseUrl>https://github.com/mateusggeracino/SwaggerLib</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/mateusggeracino/SwaggerLib</PackageProjectUrl>
