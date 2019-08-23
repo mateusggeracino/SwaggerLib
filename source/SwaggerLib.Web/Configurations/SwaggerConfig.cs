@@ -20,7 +20,7 @@ namespace SwaggerLib.Web.Configurations
             SwaggerContact.Config("Joseé", "My github");
             SwaggerInfo.Config("v1", "Josézinho", "Test");
 
-            services.ConfigureServicesSwagger();
+            services.ConfigureServicesSwagger(true);
         }
 
         /// <summary>

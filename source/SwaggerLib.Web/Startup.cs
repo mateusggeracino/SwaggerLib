@@ -23,7 +23,7 @@ namespace SwaggerLib.Web
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             //With properties default
-            services.ConfigureServicesSwagger();
+            services.ConfigureServicesSwagger(true);
 
             //With properties personalize
             //services.ConfigSwaggerServices();
