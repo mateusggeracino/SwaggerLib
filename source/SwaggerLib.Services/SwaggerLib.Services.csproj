@@ -10,6 +10,7 @@
     <PackageLicenseUrl>https://github.com/mateusggeracino/SwaggerLib</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/mateusggeracino/SwaggerLib</PackageProjectUrl>
     <PackageIconUrl>https://swagger.io/swagger/media/assets/images/swagger_logo.svg</PackageIconUrl>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
