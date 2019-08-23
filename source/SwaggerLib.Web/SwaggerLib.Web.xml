@@ -4,5 +4,24 @@
         <name>SwaggerLib.Web</name>
     </assembly>
     <members>
+        <member name="T:SwaggerLib.Web.Configurations.SwaggerConfig">
+            <summary>
+            Classe de configuração com propriedades personalizadas
+            </summary>
+        </member>
+        <member name="M:SwaggerLib.Web.Configurations.SwaggerConfig.ConfigSwaggerServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Método de extensão da interface: IServiceCollection
+            Propriedades personalizadas 
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:SwaggerLib.Web.Configurations.SwaggerConfig.ConfigSwaggerApp(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Método de extensão da interface: IApplicationBuilder
+            Propriedades de EndPoint personalizadas
+            </summary>
+            <param name="app"></param>
+        </member>
     </members>
 </doc>
