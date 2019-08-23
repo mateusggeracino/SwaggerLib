@@ -3,6 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>SwaggerLib</PackageId>
+    <Authors>Mateus G. Geracino</Authors>
+    <Company>SwaggerLib</Company>
+    <Product>SwaggerLib</Product>
+    <PackageLicenseUrl>https://github.com/mateusggeracino/SwaggerLib</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/mateusggeracino/SwaggerLib</PackageProjectUrl>
+    <PackageIconUrl>https://swagger.io/swagger/media/assets/images/swagger_logo.svg</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
