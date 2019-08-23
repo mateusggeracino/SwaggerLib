@@ -19,8 +19,8 @@ Após é necessário adicionar a referência da lib na classe Startup
 Assim, basta chamar o método de configuração no método: ConfigureServices
 
 O valor booleano passado por parâmetro é responsável por implementar o método de Token no swagger.
-True = Usar método de Token
-False = Não usar método de Token
+* True = Usar método de Token
+* False = Não usar método de Token
 
 Como abaixo:
  ```csharp
