@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
+using SwaggerLib.Services;
+using SwaggerLib.Web.Configurations;
 
 namespace SwaggerLib.Web
 {
@@ -25,6 +21,12 @@ namespace SwaggerLib.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            //With properties default
+            services.ConfigureServicesSwagger();
+
+            //With properties personalize
+            //services.ConfigSwaggerServices();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -35,6 +37,11 @@ namespace SwaggerLib.Web
                 app.UseDeveloperExceptionPage();
             }
 
+            //With properties default
+            app.ConfigureAppSwagger();
+
+            //With properties personalize
+            //app.ConfigSwaggerApp();
             app.UseMvc();
         }
     }
