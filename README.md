@@ -5,6 +5,15 @@
 
 ## Como utilizar (Padrão)
 
+Antes de tudo, é de extrema importancia adicionar Xml Documentation.
+
+* Clique com o botão direito no projeto de inicialização.
+* Clique na aba Build
+* Habilite: XML documentation file
+
+Imagem:
+![alt text](https://i.ibb.co/PwbmSnz/xml.png)
+
 Execute o comando abaixo no Package Manager Console
 ```bash
 Install-Package SwaggerLib.MGG
